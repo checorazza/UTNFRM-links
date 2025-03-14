@@ -1,6 +1,7 @@
 import Image from "next/image";
 import LinkGroup from "../components/LinkGroup.jsx";
 import { linksSections } from "../data/link.js";
+import Footer from "../components/Footer.js";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <Footer></Footer>
     </main>
   );
 }

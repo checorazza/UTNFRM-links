@@ -1,23 +1,21 @@
 const Footer = () => {
   return (
-    <footer className="w-full bg-gradient-to-r from-gray-900 to-gray-800 text-white py-3 mt-10">
-      <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
-        <h1 className="text-lg sm:text-xl font-semibold">
-          Creado por{" "}
-          <span className="text-blue-400">
-            <a href="https://instagram.com/checorazza">checo :)</a> 🩵
-          </span>
-        </h1>
-        <p className="text-xs text-gray-500 sm:text-lg mt-0">
-          &copy; {new Date().getFullYear()} checorazza
-        </p>
-        <p className="text-xs text-gray-500">
-          (Le robé el footer a
-          <span className="text-blue-400">
-            <a href="https://cuantas-te-quedan.vercel.app/"> los chicos</a>
-          </span>
-          )
-        </p>
+    <footer className="relative flex flex-col py-8 items-center max-w-md mx-auto">
+      <div className="flex flex-col items-center w-full">
+        <div className="flex-grow border-t border-gray-400 w-full mb-6"></div>
+        <div className="flex flex-col items-center gap-4">
+          <p className="text-gray-600 text-base">
+            © {new Date().getFullYear()} checorazza
+          </p>
+          <div className="flex gap-6">
+            <a
+              href="#https://github.com/checorazza/UTNFRM-links"
+              className="text-gray-500 hover:text-gray-700 transition-colors text-sm"
+            >
+              Repositorio
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
   );

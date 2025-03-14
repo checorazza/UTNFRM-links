@@ -33,13 +33,6 @@ export const horarios = [
   },
 ];
 
-export const recursos = [
-  {
-    text: "¿Cuántas Te Quedan?",
-    href: "https://cuantas-te-quedan.vercel.app/",
-  },
-];
-
 export const grupos = [
   {
     text: "WhatsApp Apuntes",
@@ -52,6 +45,17 @@ export const grupos = [
   {
     text: "WhatsApp Debates",
     href: "https://chat.whatsapp.com/JyitRhuOh99HfwGdkFFfGy",
+  },
+];
+
+export const recursos = [
+  {
+    text: "¿Cuántas Te Quedan?",
+    href: "https://cuantas-te-quedan.vercel.app/",
+  },
+  {
+    text: "Bot WhatsApp",
+    href: "https://wa.me/5492617109583",
   },
 ];
 
@@ -75,5 +79,10 @@ export const linksSections = [
     title: "Grupos",
     icon: "Users",
     items: grupos,
+  },
+  {
+    title: "Recursos",
+    icon: "Pencil",
+    items: recursos,
   },
 ];
