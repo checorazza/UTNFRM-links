@@ -19,12 +19,16 @@ export default function Home() {
 
   const grupos = [
     {
-      text: "WhatsApp",
+      text: "WhatsApp Apuntes",
       href: "https://chat.whatsapp.com/IY4RsQtBvzJ4MB7hGJEGlZ",
     },
     {
-      text: "Telegram",
+      text: "Telegram Apuntes",
       href: "https://t.me/+JJxj6DbwD1RhNjVh",
+    },
+    {
+      text: "WhatsApp Debates",
+      href: "https://chat.whatsapp.com/JyitRhuOh99HfwGdkFFfGy",
     },
   ];
 
