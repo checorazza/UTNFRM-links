@@ -1,7 +1,13 @@
 import LinkList from "../components/LinkList.js";
 import LinkItem from "../components/LinkItem.js";
 import Divider from "../components/Divider.js";
-import { principal, apuntes, horarios, grupos } from "../data/link.js";
+import {
+  principal,
+  apuntes,
+  horarios,
+  grupos,
+  recursos,
+} from "../data/link.js";
 
 export default function Home() {
   return (
@@ -21,6 +27,8 @@ export default function Home() {
       <LinkList linkitems={horarios} />
       <Divider text="Grupos"></Divider>
       <LinkList linkitems={grupos} />
+      <Divider text="Recursos"></Divider>
+      <LinkList linkitems={recursos} />
     </div>
   );
 }
