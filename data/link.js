@@ -33,6 +33,13 @@ export const horarios = [
   },
 ];
 
+export const recursos = [
+  {
+    text: "¿Cuántas Te Quedan?",
+    href: "https://cuantas-te-quedan.vercel.app/",
+  },
+];
+
 export const grupos = [
   {
     text: "WhatsApp Apuntes",
