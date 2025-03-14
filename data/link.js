@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const principal = [
   {
     text: "¿Se cayó Autogestión?",
@@ -43,5 +45,28 @@ export const grupos = [
   {
     text: "WhatsApp Debates",
     href: "https://chat.whatsapp.com/JyitRhuOh99HfwGdkFFfGy",
+  },
+];
+
+export const linksSections = [
+  {
+    title: "Principal",
+    icon: "House",
+    items: principal,
+  },
+  {
+    title: "Apuntes",
+    icon: "Notebook",
+    items: apuntes,
+  },
+  {
+    title: "Horarios",
+    icon: "Calendar",
+    items: horarios,
+  },
+  {
+    title: "Grupos",
+    icon: "Users",
+    items: grupos,
   },
 ];
