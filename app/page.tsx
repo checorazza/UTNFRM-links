@@ -10,10 +10,21 @@ export default function Home() {
   };
 
   const apuntes = [
-    { href: "https://apuntesutnmza.com", text: "Descargá apuntes y exámenes" },
+    { text: "Descargá apuntes y exámenes", href: "https://apuntesutnmza.com" },
     {
-      href: "https://drive.google.com/drive/folders/1XqAJvCCtzAFxJ5hlaerHdUF8qgCsPCVi",
       text: "Subí tu apunte",
+      href: "https://drive.google.com/drive/folders/1XqAJvCCtzAFxJ5hlaerHdUF8qgCsPCVi",
+    },
+  ];
+
+  const grupos = [
+    {
+      text: "WhatsApp",
+      href: "https://chat.whatsapp.com/IY4RsQtBvzJ4MB7hGJEGlZ",
+    },
+    {
+      text: "Telegram",
+      href: "https://t.me/+JJxj6DbwD1RhNjVh",
     },
   ];
 
@@ -30,6 +41,8 @@ export default function Home() {
       <LinkItem text={autogestion.text} href={autogestion.href}></LinkItem>
       <Divider text="Apuntes"></Divider>
       <LinkList linkitems={apuntes} />
+      <Divider text="Grupos"></Divider>
+      <LinkList linkitems={grupos} />
     </div>
   );
 }
