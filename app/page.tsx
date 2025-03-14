@@ -1,7 +1,7 @@
 import LinkList from "../components/LinkList.js";
 import LinkItem from "../components/LinkItem.js";
 import Divider from "../components/Divider.js";
-import { autogestion, apuntes, horarios, grupos } from "../data/link.js";
+import { principal, apuntes, horarios, grupos } from "../data/link.js";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
           Links Útiles
         </h2>
       </div>
-      <LinkItem text={autogestion.text} href={autogestion.href}></LinkItem>
+      <LinkList linkitems={principal} />
       <Divider text="Apuntes"></Divider>
       <LinkList linkitems={apuntes} />
       <Divider text="Horarios"></Divider>

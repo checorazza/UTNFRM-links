@@ -1,10 +1,19 @@
-export const autogestion = {
-  text: "¿Se cayó Autogestión?",
-  href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-};
+export const principal = [
+  {
+    text: "¿Se cayó Autogestión?",
+    href: "https://downforeveryoneorjustme.com/sgr.frm.utn.edu.ar?proto=https",
+  },
+  {
+    text: "¿En dónde curso?",
+    href: "https://sgr.frm.utn.edu.ar/reservas/",
+  },
+];
 
 export const apuntes = [
-  { text: "Descargá apuntes y exámenes", href: "https://apuntesutnmza.com" },
+  {
+    text: "Descargá libros, apuntes y exámenes",
+    href: "https://apuntesutnmza.com",
+  },
   {
     text: "Subí tu apunte",
     href: "https://drive.google.com/drive/folders/1XqAJvCCtzAFxJ5hlaerHdUF8qgCsPCVi",
