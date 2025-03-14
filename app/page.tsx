@@ -1,21 +1,35 @@
-import LinkItem from "../components/LinkItem";
-import Divider from "../components/Divider";
+import LinkList from "../components/LinkList.js";
+import LinkItem from "../components/LinkItem.js";
+import Divider from "../components/Divider.js";
+import Link from "next/link.js";
 
 export default function Home() {
+  const autogestion = {
+    text: "¿Se cayó Autogestión?",
+    href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  };
+
+  const apuntes = [
+    { href: "https://apuntesutnmza.com", text: "Descargá apuntes y exámenes" },
+    {
+      href: "https://drive.google.com/drive/folders/1XqAJvCCtzAFxJ5hlaerHdUF8qgCsPCVi",
+      text: "Subí tu apunte",
+    },
+  ];
+
   return (
-    <div className="text-center items-center justify-center min-h-screen py-15 bg-gray-100">
-      <div className="">
-        <h1 className="text-5xl font-bold tracking-normal text-balance text-gray-900 sm:text-5xl m-4">
-          UTN Facultad Regional Mendoza
+    <div className="text-center items-center justify-center min-h-screen">
+      <div className="mt-15">
+        <h1 className="text-5xl font-bold tracking-tight text-balance text-gray-900 sm:text-5xl mb-1">
+          UTN Mendoza
         </h1>
-        <h2 className="text-3xl tracking-tight text-gray-700 m-4">
+        <h2 className="text-3xl font-bold tracking-tight text-blue-500 mb-5">
           Links Útiles
         </h2>
       </div>
+      <LinkItem text={autogestion.text} href={autogestion.href}></LinkItem>
       <Divider text="Apuntes"></Divider>
-      <div className="">
-        <LinkItem href="https://youtube.com" text="YouTube ahre"></LinkItem>
-      </div>
+      <LinkList linkitems={apuntes} />
     </div>
   );
 }
