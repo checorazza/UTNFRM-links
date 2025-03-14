@@ -4,7 +4,7 @@ import { linksSections } from "../data/link.js";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-b text-center items-center justify-center min-h-screen font-sans">
+    <main className="bg-gradient-to-b p-4 text-center items-center justify-center min-h-screen font-sans">
       <section className="m-8 px-8 py-12 rounded-3xl shadow-md w-full max-w-md mx-auto bg-white">
         <header className="mx-auto">
           <Image
