@@ -27,7 +27,10 @@ export default function Home() {
       <LinkList linkitems={horarios} />
       <Divider text="Grupos"></Divider>
       <LinkList linkitems={grupos} />
-      <Divider text="Recursos"></Divider>
+      <Divider
+        text="Recursos"
+        description="Recursos creados por los estudiantes"
+      ></Divider>
       <LinkList linkitems={recursos} />
     </div>
   );
