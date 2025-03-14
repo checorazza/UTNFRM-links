@@ -1,4 +1,5 @@
 import LinkItem from "../components/LinkItem";
+import Divider from "../components/Divider";
 
 export default function Home() {
   return (
@@ -11,13 +12,8 @@ export default function Home() {
           Links Útiles
         </h2>
       </div>
+      <Divider text="Apuntes"></Divider>
       <div className="">
-        <div className="relative flex py-5 items-center">
-          <div className="flex-grow border-t border-gray-400"></div>
-          <span className="flex-shrink mx-4 text-gray-400">Apuntes</span>
-          <div className="flex-grow border-t border-gray-400"></div>
-        </div>
-
         <LinkItem href="https://youtube.com" text="YouTube ahre"></LinkItem>
       </div>
     </div>
