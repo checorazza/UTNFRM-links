@@ -1,7 +1,6 @@
 import LinkList from "../components/LinkList.js";
 import LinkItem from "../components/LinkItem.js";
 import Divider from "../components/Divider.js";
-import Link from "next/link.js";
 
 export default function Home() {
   const autogestion = {
@@ -14,6 +13,17 @@ export default function Home() {
     {
       text: "Subí tu apunte",
       href: "https://drive.google.com/drive/folders/1XqAJvCCtzAFxJ5hlaerHdUF8qgCsPCVi",
+    },
+  ];
+
+  const horarios = [
+    {
+      text: "Horarios de cursado",
+      href: "http://encuesta.frm.utn.edu.ar/horariocurso/",
+    },
+    {
+      text: "Consultas Materias Básicas",
+      href: "https://docs.google.com/spreadsheets/d/1p_M0-_Epxg3L8MQPioQhSRtIRTKtzpiU/edit?gid=1545364061#gid=1545364061",
     },
   ];
 
@@ -45,6 +55,8 @@ export default function Home() {
       <LinkItem text={autogestion.text} href={autogestion.href}></LinkItem>
       <Divider text="Apuntes"></Divider>
       <LinkList linkitems={apuntes} />
+      <Divider text="Horarios"></Divider>
+      <LinkList linkitems={horarios} />
       <Divider text="Grupos"></Divider>
       <LinkList linkitems={grupos} />
     </div>
