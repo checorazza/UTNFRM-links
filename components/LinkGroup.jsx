@@ -2,6 +2,7 @@
 import { useState } from "react";
 import * as LucideIcons from "lucide-react";
 import LinkItem from "./LinkItem";
+import { ChevronDown, ChevronUp } from "lucide-react";
 
 const LinkGroup = ({ title, icon, items }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,13 @@ const LinkGroup = ({ title, icon, items }) => {
             </div>
           )}
           <span>{title}</span>
+        </div>
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-200">
+          {isOpen ? (
+            <ChevronUp className="h-4 w-4" />
+          ) : (
+            <ChevronDown className="h-4 w-4" />
+          )}
         </div>
       </button>
       <div
