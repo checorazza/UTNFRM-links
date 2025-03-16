@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
           <div className="flex gap-6">
             <a
-              href="#https://github.com/checorazza/UTNFRM-links"
+              href="https://github.com/checorazza/UTNFRM-links"
               className="text-gray-500 hover:text-gray-700 transition-colors text-sm"
             >
               Repositorio
