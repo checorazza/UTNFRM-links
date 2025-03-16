@@ -59,6 +59,13 @@ export const recursos = [
   },
 ];
 
+export const videos = [
+  {
+    text: "Entendiendo Mates: Domina Cálculo y Álgebra",
+    href: "https://www.youtube.com/@entendiendomates",
+  },
+];
+
 export const linksSections = [
   {
     title: "Principal",
@@ -84,5 +91,10 @@ export const linksSections = [
     title: "Recursos",
     icon: "Pencil",
     items: recursos,
+  },
+  {
+    title: "Videos creados por alumnos",
+    icon: "Youtube",
+    items: videos,
   },
 ];
