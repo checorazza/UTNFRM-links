@@ -64,6 +64,10 @@ export const videos = [
     text: "Entendiendo Mates: Domina Cálculo y Álgebra",
     href: "https://www.youtube.com/@entendiendomates",
   },
+  {
+    text: "Así es el primer semestre de Ingeniería en Sistemas",
+    href: "https://www.youtube.com/watch?v=gSyjnykrBvA",
+  },
 ];
 
 export const linksSections = [
