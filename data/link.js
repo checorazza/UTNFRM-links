@@ -115,7 +115,7 @@ export const linksSections = [
   },
   {
     title: "Plan de Estudio",
-    icon: "book-open",
+    icon: "GraduationCap",
     items: planDeEstudio,
   },
   {
