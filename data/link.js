@@ -9,6 +9,10 @@ export const principal = [
     text: "¿En dónde curso?",
     href: "https://sgr.frm.utn.edu.ar/reservas/",
   },
+  {
+    text: "Calendario Ingenierías",
+    href: "https://www.lamanuelsavio.org/calendario/",
+  },
 ];
 
 export const apuntes = [
@@ -70,6 +74,29 @@ export const videos = [
   },
 ];
 
+export const planDeEstudio = [
+  {
+    text: "Ingeniería Civil",
+    href: "https://www.lamanuelsavio.org/wp-content/uploads/2025/03/plan_civil.pdf",
+  },
+  {
+    text: "Ingeniería Electromecánica",
+    href: "https://www.lamanuelsavio.org/wp-content/uploads/2025/03/plan_em.pdf",
+  },
+  {
+    text: "Ingeniería Electrónica",
+    href: "https://www.lamanuelsavio.org/wp-content/uploads/2025/03/plan_electronica.pdf",
+  },
+  {
+    text: "Ingeniería Química",
+    href: "https://www.lamanuelsavio.org/wp-content/uploads/2025/03/plan_quimica.pdf",
+  },
+  {
+    text: "Ingeniería en Sistemas",
+    href: "https://www.lamanuelsavio.org/wp-content/uploads/2025/03/plan_sistemas.pdf",
+  },
+];
+
 export const linksSections = [
   {
     title: "Principal",
@@ -85,6 +112,11 @@ export const linksSections = [
     title: "Horarios",
     icon: "Calendar",
     items: horarios,
+  },
+  {
+    title: "Plan de Estudio",
+    icon: "book-open",
+    items: planDeEstudio,
   },
   {
     title: "Grupos",
